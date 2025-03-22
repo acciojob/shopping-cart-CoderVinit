@@ -8,6 +8,26 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h2>Shopping List</h2>
+    <div class="input-container">
+        <input type="text" id="item-name-input" placeholder="Enter item name" aria-label="Item Name">
+        <input type="number" id="item-price-input" placeholder="Enter item price" aria-label="Item Price">
+        <button id="add">Add</button>
+    </div>
+
+	<table aria-role="table">
+        <thead>
+            <tr>
+                <th id="item">Item Name</th>
+                <th id="price">Price</th>
+            </tr>
+        </thead>
+        <tbody id="shopping-list">
+            <tr>
+                <td colspan="2"><strong>Grand Total: <span id="total">0</span></strong></td>
+            </tr>
+        </tbody>
+    </table>
     <script type="text/javascript" src="./script.js">
 </script>
 
